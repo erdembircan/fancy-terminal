@@ -1,0 +1,11 @@
+{
+  "configs": [
+    {
+      "input": "src/index.js",
+      "output": {
+        "file": "dist/fancy-terminal-common.js",
+        "format": "cjs"
+      }
+    }
+  ]
+}
