@@ -10,13 +10,7 @@ describe('fancy-terminal', () => {
      * @returns {number} - total count of parent keys
      */
     function getObjectLength(obj) {
-      let tempLength = 0;
-      Object.keys(obj).forEach((k) => {
-        if (Object.prototype.hasOwnProperty.call(obj, k)) {
-          tempLength++;
-        }
-      });
-      return tempLength;
+      return Object.keys(obj).reduce((c, a) => ++c, 0);
     }
 
     const colorsLength = getObjectLength(colors.colors);

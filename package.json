@@ -1,13 +1,26 @@
 {
   "name": "fancy-terminal",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "zero dependency Node.js terminal output colorizer",
   "author": "Erdem Bircan <erdem.erdembircan@gmail.com>",
   "license": "MIT",
-  "main": "dist/fancy-terminal-common.js",
+  "main": "./dist/fancy-terminal-common.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erdembircan/fancy-terminal"
+  },
+  "files": [
+    "./dist/*.js"
+  ],
+  "keywors": [
+    "terminal",
+    "output",
+    "color"
+  ],
   "scripts": {
     "build:dev": "rollup -w -c build/devConfig.js",
     "build": "rollup -c build/index.js",
+    "example": "node ./example/index.js",
     "test:unit:dev": "cross-env NODE_ENV=test mocha --reporter min --watch --require test/mocha-setup.js --require @babel/register test/spec/*.spec.js",
     "coverage": "cross-env NODE_ENV=test nyc mocha --require test/mocha-setup.js --require @babel/register test/spec/*.spec.js",
     "lint": "eslint src",
