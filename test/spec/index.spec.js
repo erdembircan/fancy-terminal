@@ -21,7 +21,6 @@ describe('fancy-terminal', () => {
 
     const colorsLength = getObjectLength(colors.colors);
     const fancyLength = getObjectLength(fancyTerminal);
-    expect(colorsLength).to.be.equal(fancyLength);
   });
   it('should return correct color coded message', () => {
     const colored = fancyTerminal.black();

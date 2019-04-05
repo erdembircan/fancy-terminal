@@ -5,6 +5,7 @@
   */
 'use strict';
 
+/** @module colors */
 var colors = {
   colors: {
     black: '\x1b[30m',
@@ -45,7 +46,6 @@ function assignColor(colorKey, colorObj, mainObj) {
     return ("" + (colorObj[colorKey]) + message + reset);
   };
 }
-
 
 Object.keys(colors.colors).forEach(function (c) {
   assignColor(c, colors.colors, fancyObject);

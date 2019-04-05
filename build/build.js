@@ -5,6 +5,12 @@ const cjs = require('rollup-plugin-commonjs');
 const node = require('rollup-plugin-node-resolve');
 const packageDetails = require('../package.json');
 
+/**
+ * @function resolve - resolve path relative to current file
+ *
+ * @param {string} p - path
+ * @return {string} -resolved path
+ */
 const resolve = p => path.resolve(__dirname, '../', p);
 
 /* eslint-disable operator-linebreak */

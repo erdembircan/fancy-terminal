@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Erdem Bircan <erdem.erdembircan@gmail.com>",
   "license": "MIT",
+  "main": "dist/fancy-terminal-common.js",
   "scripts": {
     "build:dev": "rollup -w -c build/devConfig.js",
     "build": "rollup -c build/index.js",
