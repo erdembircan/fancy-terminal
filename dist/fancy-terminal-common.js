@@ -1,5 +1,5 @@
 /*!
-  * fancy-terminal v1.0.0
+  * fancy-terminal v1.0.1
   * Erdem Bircan - 2019
   * @license MIT
   */

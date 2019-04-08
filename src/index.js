@@ -9,6 +9,8 @@ const { reset } = colors.util;
  * @function assignColor - assign color key to main object as function
  *
  * @param {string} colorKey - color key
+ * @param {object} colorObj - object with color codes
+ * @param {object} mainObj - object to be populated with
  */
 function assignColor(colorKey, colorObj, mainObj) {
   mainObj[colorKey] = function assign(message) {

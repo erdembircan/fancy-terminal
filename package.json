@@ -1,6 +1,6 @@
 {
   "name": "fancy-terminal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "zero dependency Node.js terminal output colorizer",
   "author": "Erdem Bircan <erdem.erdembircan@gmail.com>",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "url": "https://github.com/erdembircan/fancy-terminal"
   },
   "files": [
-    "./dist/*.js"
+    "dist/*.js"
   ],
   "keywords": [
     "terminal",
