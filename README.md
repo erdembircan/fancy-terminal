@@ -1,4 +1,4 @@
-## 🌈 fancy-terminal
+## 🌈 fancy-terminal [![Build Status](https://travis-ci.com/erdembircan/fancy-terminal.svg?token=uZBBgzqyPXwqVmSropq2&branch=master)](https://travis-ci.com/erdembircan/fancy-terminal) [![Coverage Status](https://coveralls.io/repos/github/erdembircan/fancy-terminal/badge.svg?branch=master)](https://coveralls.io/github/erdembircan/fancy-terminal?branch=master)
 
 > zero dependency Node.js terminal output colorizer.
 

@@ -10,6 +10,13 @@ if [[ $reply =~ ^[yY]$ ]]
 then
   yarn test 
   yarn build
+
+  git tag -a v$version -m "v$version"
+  git add -A
+  git commit -m "📦 v$version"
+  git push origin master --tags
+
+  yarn publish
 else
   echo "operation cancelled"
 fi
