@@ -17,6 +17,8 @@ then
   git push origin master --tags
 
   yarn publish
+
+  echo "operation successful"
 else
   echo "operation cancelled"
 fi
